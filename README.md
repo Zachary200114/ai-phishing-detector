@@ -26,26 +26,26 @@ All screenshots are stored in:
 ```
 
 ### 1. Frontend Email Input
-![Frontend Email Input](./frontend/screenshots/frontend-email.png)
+![Frontend Email Input](./screenshots/frontend-email.png)
 
 ### 2. Email Analysis Result
-![Email Analysis](./frontend/screenshots/email-analysis .png)
+![Email Analysis](./screenshots/email-analysis.png)
 
 ### 3. Safe Email Rewrite (with diff highlighting)
-![Safe Email Rewrite](./frontend/screenshots/email-rewrite.png)
+![Safe Email Rewrite](./screenshots/email-rewrite.png)
 
 ### 4. Combined Output Example
-![Email Output](./frontend/screenshots/email-output.png)
+![Email Output](./screenshots/email-output.png)
 
 ### 5. SQLite Analysis History
-![Analysis History](./frontend/screenshots/backend-history.png)
+![Analysis History](./screenshots/backend-history.png)
 
 ---
 
 ## Features
 
 ### Phishing Detection Engine
-The backend performs heuristic-based phishing detection by analyzing:
+The backend performs heuristic-based phishing detection by analyzing :
 
 - High-risk keywords (password, verify, urgent, login, click)
 - Presence of links
