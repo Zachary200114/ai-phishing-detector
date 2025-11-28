@@ -1,13 +1,3 @@
-Understood.
-Here is a **clean, professional, no-emoji, no-slop README.md**, fully aligned with your screenshot paths and your project structure.
-
-Copy/paste the entire thing into `README.md` at the root of your repository.
-
----
-
-# FINAL README.md (Clean, Professional, No Emojis)
-
-```markdown
 # AI-Powered Phishing Email Detector
 
 Full-Stack Cybersecurity + AI Project (FastAPI, React, SQLite)
@@ -19,6 +9,7 @@ This project is a complete phishing email detection and safe-rewrite platform de
 ## Screenshots
 
 All screenshots are stored in:
+
 ```
 
 ./frontend/screenshots/
@@ -26,18 +17,23 @@ All screenshots are stored in:
 ```
 
 ### 1. Frontend Email Input
+
 ![Frontend Email Input](./screenshots/frontend-email.png)
 
 ### 2. Email Analysis Result
+
 ![Email Analysis](./screenshots/email-analysis.png)
 
 ### 3. Safe Email Rewrite (with diff highlighting)
+
 ![Safe Email Rewrite](./screenshots/email-rewrite.png)
 
 ### 4. Combined Output Example
+
 ![Email Output](./screenshots/email-output.png)
 
 ### 5. SQLite Analysis History
+
 ![Analysis History](./screenshots/backend-history.png)
 
 ---
@@ -45,6 +41,7 @@ All screenshots are stored in:
 ## Features
 
 ### Phishing Detection Engine
+
 The backend performs heuristic-based phishing detection by analyzing :
 
 - High-risk keywords (password, verify, urgent, login, click)
@@ -63,6 +60,7 @@ Produces:
 ---
 
 ### Safe Email Rewrite
+
 The backend can generate a "safe" version of any email by removing or rewriting:
 
 - Suspicious links
@@ -78,6 +76,7 @@ A full diff is generated and returned as HTML so the frontend can highlight:
 ---
 
 ### SQLite Storage and History Page
+
 Each analysis is stored using SQLite with:
 
 - Subject
@@ -108,7 +107,7 @@ root/
 ├── public/
 └── node_modules/
 
-````
+```
 
 Data Flow:
 
@@ -128,16 +127,18 @@ Data Flow:
 ## API Endpoints
 
 ### POST /analyze
+
 Analyzes email content and optional raw headers.
 
 Request:
+
 ```json
 {
   "subject": "Your account will be suspended",
   "body": "Full email text...",
   "raw_headers": "Optional header text"
 }
-````
+```
 
 Response:
 
@@ -301,21 +302,3 @@ Zachary Ryan
 Cybersecurity & AI Student, Robert Morris University
 
 ---
-
-## License
-
-MIT License
-
-```
-
----
-
-If you want, I can also create a:
-
-- Table of contents
-- Advanced API documentation section
-- Installation badges (no emojis)
-- Professional GitHub project description
-
-Just tell me.
-```
