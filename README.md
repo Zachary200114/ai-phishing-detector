@@ -6,16 +6,6 @@ This project is a complete phishing email detection and safe-rewrite platform de
 
 ---
 
-## Screenshots
-
-All screenshots are stored in:
-
-```
-
-./frontend/screenshots/
-
-```
-
 ### 1. Frontend Email Input
 
 ![Frontend Email Input](./screenshots/frontend-email.png)
